@@ -53,6 +53,6 @@ def first_challenge
     #     :attitude => "worried"
     #     }
     #     ]
-    # }
+    }
    }
 end

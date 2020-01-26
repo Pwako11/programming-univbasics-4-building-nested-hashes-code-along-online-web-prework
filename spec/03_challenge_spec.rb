@@ -11,7 +11,7 @@ xit "fills out the Montague character role keys with the key/value pairs describ
     expect(third_challenge[:montague][:hero].values).to eq(["Romeo", "15", "alive"])
   end
 
-  it "fills out the Capulet character role keys with the key/value pairs describing their attributes" do
+  xit "fills out the Capulet character role keys with the key/value pairs describing their attributes" do
     expect(third_challenge[:capulet][:patriarch].keys).to eq([:name, :age])
     expect(third_challenge[:capulet][:matriarch].keys).to eq([:name, :age])
     expect(third_challenge[:capulet][:heroine].keys).to eq([:name, :age, :status])
